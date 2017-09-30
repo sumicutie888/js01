@@ -1,0 +1,15 @@
+body {
+    background-image: url(http://img1.picmix.com/output/stamp/normal/8/9/1/4/264198_d6166.gif), url(http://data.whicdn.com/images/127698038/original.gif);
+    background-size: cover;
+
+    text-align: center;
+}
+
+h1{
+  font-size: 125px;
+  color: #ce1629;
+  font-family: 'Luckiest Guy', cursive;
+}
+img{
+  size: 75px;
+}

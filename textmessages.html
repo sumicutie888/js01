@@ -7,6 +7,8 @@
         alert("Hey lets play a game of Would you Rather");
         var choice = prompt("Would you rather eat bugs or eat poop?");
 
+        choice = choice.toLowerCase();
+
         if (choice == "bugs") {
             alert("Ok good choice");
 
@@ -17,54 +19,62 @@
         }
 
         alert("Next question");
-        var choice = prompt("What house would you rather live in a Brown Stone or a Condo");
+        var choice = prompt("What house would you rather live in a brownstone or a condo");
 
-        if (choice == "Brown Stone") {
+        choice = choice.toLowerCase();
+
+        if (choice == "brownstone") {
             alert("COOL!!!");
 
         }
-        if (choice == "Condo") {
+        if (choice == "condo") {
             alert("NICE CHOICE!");
         }
 
         alert("OK next question!");
-        var choice = prompt("Which bed would you rather sleep on a Water bed or a Memory foam bed?");
+        var choice = prompt("Which bed would you rather sleep on: a water bed or a memory foam bed?");
 
-        if (choice == "Water bed") {
-            alert("Nice and very comfy just hope it does not POP!");
+        choice = choice.toLowerCase();
+
+        if (choice == "water bed") {
+            alert("Nice and very comfy -- just hope it does not POP!");
         }
 
-        if (choice == "Memory foam bed") {
-            alert("It is so comfy I would never want to get up!!!");
+        if (choice == "memory foam bed") {
+            alert("It is so comfy, I would never want to get up!!!");
         }
 
         alert("K next Would you rather question");
         var choice = prompt("Would you rather eat at McDonalds or Chick-fil-A?");
 
-        if (choice == "Chick-fil-A") {
-            alert("That is great Chick-fil-A is the only fast food spot that has real food");
+        choice = choice.toLowerCase();
+
+        if (choice == "chick-fil-a") {
+            alert("That is great. Chick-fil-A is the only fast food spot that has real food");
         }
 
-        if (choice == "McDonals") {
+        if (choice == "mcdonalds") {
             alert("Ummm... ok? In my opion I only go there when I want a hot chocolate");
         }
 
         alert("Next question");
-        var choice = prompt("Would you rather be a Dancer, STEPER, Cheerleader, or ALL of the above!!!");
+        var choice = prompt("Would you rather be a Dancer, Stepper, Cheerleader, or ALL of the above!!!");
 
-        if (choice == "Dancer") {
+        choice = choice.toLowerCase();
+
+        if (choice == "dancer") {
             alert("It is fun but lots of work");
         }
 
-        if (choice == "Steper") {
+        if (choice == "stepper") {
             alert("Nice I love stepping!");
         }
 
-        if (choice == "Cheerleader") {
+        if (choice == "cheerleader") {
             alert("It is very strict and you have to put your all in but it is FUN!!!");
         }
 
-        if (choice == "ALL OF THE ABOVE") {
+        if (choice == "all of the above") {
             alert("THAT IS WHAT I WOULD CHOOSE!!!");
 
         }
@@ -72,16 +82,22 @@
         alert("Next question");
         var choice = prompt("Would you rather have a Iphone 7s or a Iphone 7?");
 
-        if (choice == "Iphone 7s"){
-          alert("I always wanted one of  thoose");
+        choice = choice.toLowerCase();
+
+        if (choice == "iphone 7s") {
+            alert("I always wanted one of those");
         }
 
-        if (choice == "Iphone 7"){
-          alert("My friend has that phone it is NICE!");
+        if (choice == "iphone 7") {
+            alert("My friend has that phone, it is NICE!");
         }
+
         alert("OK finally the last question ");
-        var choice = prompt("If there was one wish you had what would it be?");
-        alert("WOW I really like your wish!!! It was intresting but nice!")
+        var choice = prompt("If there was one wish you had, what would it be?");
+
+        choice = choice.toLowerCase();
+
+        alert("WOW, I really like your wish!!! It was intresting but nice!")
     </script>
 </body>
 
